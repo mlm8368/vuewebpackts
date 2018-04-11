@@ -1,6 +1,6 @@
 # vuewebpackts
 
-> A Vue.js project123
+> A Vue.js project
 
 ## Build Setup
 
