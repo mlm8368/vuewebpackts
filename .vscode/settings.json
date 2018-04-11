@@ -1,3 +1,26 @@
 {
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "standard.autoFixOnSave": true,
+  "standard.options": {
+    "globals": ["$", "jQuery", "fetch"],
+    "ignore": [
+        "node_modules/**"
+    ],
+    "plugins": ["html"],
+    "parser": "babel-eslint",
+    "envs": ["jest"]
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+      "extensions": [
+          ".js",
+          ".vue"
+      ]
+  },
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue",
+      "vue-html"
+  ],
 }
